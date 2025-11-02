@@ -2,7 +2,7 @@ body {
     background-color: black;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+    font-size: 18px;
 }
 header  {
     display: grid;
@@ -27,7 +27,6 @@ header .about h1 {
 }
 .about p {
     color: white;
-    font-size: 1.2em;
 }
 
 /* services */
@@ -40,11 +39,10 @@ header .about h1 {
 .service h2 {
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .service p {
     color: yellow;
-    font-size: 1.2em;
 }
 .service ul {
     margin-left: -20px;
@@ -54,13 +52,11 @@ header .about h1 {
 }
 #hiburan li {
     margin-bottom: 25px;
-    font-size: 1.2em;
     color: yellow;
 }
 #aktivitas li {
     color: white;
     margin-bottom: 25px;
-    font-size: 1.2em;
 }
 #kontak {
     text-align: center;
@@ -81,6 +77,7 @@ header .about h1 {
 @media (max-width : 800px) {
     body {
         padding: 20px;
+        font-size: 12px;
     }
     .service h2 {
         text-align: center;
