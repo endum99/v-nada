@@ -1,0 +1,87 @@
+body {
+    display: grid;
+    background-color: black;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header  {
+    display: grid;
+    place-content: center;
+}
+header #icon {
+    background-image: url(sound/1.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+}
+header #icon img {
+    width: 100px;
+    border-radius: 50%;
+}
+header .about h1 {
+    color: red;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* services */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    color: white;
+}
+.service h2 {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+}
+.service p {
+    color: yellow;
+    font-size: 1.2em;
+}
+.service ul {
+    margin-left: -20px;
+}
+.service li {
+    margin-bottom: 20px;
+}
+#hiburan li {
+    margin-bottom: 25px;
+    font-size: 1.2em;
+    color: yellow;
+}
+#aktivitas li {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
+#kontak {
+    text-align: center;
+}
+#kontak img {
+    border-radius: 30px;
+    border: 3px solid white; 
+    margin-bottom: 25px;
+}
+#kontak a {
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+@media (max-width : 800px) {
+    .service h2 {
+        text-align: center;
+    }
+}
