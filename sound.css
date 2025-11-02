@@ -62,9 +62,10 @@ header .about h1 {
     text-align: center;
 }
 #kontak img {
-    border-radius: 30px;
+    border-radius: 50%;
     border: 3px solid white; 
     margin-bottom: 25px;
+    width: 150px;
 }
 #kontak a {
     background-color: green;
